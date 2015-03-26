@@ -1,0 +1,19 @@
+{
+  "name": "EntangledClone",
+  "version": "1.0.0",
+  "author": "Guido Krömer <mail 64 cacodaemon 46 de>",
+  "dependencies": {
+    "grunt": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-less": "*",
+    "grunt-typescript": "*",
+    "typescript": "1.4.*",
+    "grunt-tslint": "*",
+    "grunt-contrib-uglify": "*",
+    "load-grunt-tasks": "*",
+    "grunt-newer": "*",
+    "grunt-notify": "*",
+    "grunt-contrib-clean": "*"
+  }
+}

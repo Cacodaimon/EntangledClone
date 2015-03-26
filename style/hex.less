@@ -1,0 +1,112 @@
+@import "colors";
+
+@transition-duration: 0.5s;
+@transition-timing-function: linear;
+
+@font: 'Orbitron', sans-serif;
+
+.font-settings {
+  font-family: @font;
+  font-weight: 200;
+}
+
+.hexagon {
+  stroke: darken(@color-a, 10%);
+  stroke-width: 1px;
+}
+
+.hexagon-color {
+  transition-property: fill;
+  transition-duration: @transition-duration;
+  transition-timing-function: @transition-timing-function;
+}
+
+.hexagon-color-a {
+  .hexagon-color;
+  fill: @color-a;
+}
+
+.hexagon-color-b {
+  .hexagon-color;
+  fill: @color-b;
+}
+
+.hexagon-color-c {
+  .hexagon-color;
+  fill: @color-c;
+}
+
+.hexagon-color-d {
+  .hexagon-color;
+  fill: @color-d;
+}
+
+.hexagon-color-e {
+  .hexagon-color;
+  fill: @color-e;
+}
+
+.hexagon-color-f {
+  .hexagon-color;
+  fill: @color-f;
+}
+
+.hexagon-color-g {
+  .hexagon-color;
+  fill: @color-g;
+}
+
+.line {
+    fill: none;
+    stroke-width: 3px;
+    transition-property: stroke;
+    transition-duration: @transition-duration;
+    transition-timing-function: @transition-timing-function;
+}
+
+.line-border {
+  .line;
+  stroke: darken(@color-a, 20%);
+  stroke-width: 5px;
+}
+
+.line-inactive {
+  .line;
+  stroke: lighten(@color-g, 20%);
+}
+
+.line-active {
+  .line;
+  stroke: @color-c;
+}
+
+.line-preview {
+  .line;
+  stroke: @color-e;
+}
+
+.display-box {
+  fill: @color-f;
+  stroke: darken(@color-f, 20%);
+  stroke-width: 2px;
+}
+
+.score-display-text {
+  .font-settings;
+  font-size: 30px;
+}
+
+.finished-display-text {
+  .font-settings;
+  font-size: 55px;
+}
+
+.line-following-point {
+  fill: @color-d;
+  stroke: darken(@color-d, 20%);
+  stroke-width: 2px;
+}
+
+.invisible {
+    display: none;
+}
