@@ -66,6 +66,8 @@ class PathFollowingPoint extends SVGGameObject {
 
     /**
      * Starts the animation process.
+     *
+     * @link http://bl.ocks.org/mbostock/1705868
      */
     public start (): void {
         this.remove(); // bring the element to front by removing and adding again
