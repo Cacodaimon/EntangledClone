@@ -1,7 +1,7 @@
 # EntangledClone
 A D3.js based Entanglement clone written in TypeScript.
 
-Here is a [running demo ](http://www.cacodaemon.de/demos/EntangledClone/)!
+There is also a tutorial at my [blog](http://cacodaemon.de/index.php?id=67) about this project and a [running demo ](http://www.cacodaemon.de/demos/EntangledClone/)!
 
 If you wants to build it yourself, install and run `grunt`.
 
